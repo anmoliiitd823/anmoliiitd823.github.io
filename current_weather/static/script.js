@@ -11,7 +11,7 @@ function searchWeather() {
     }
     var http = new XMLHttpRequest();
     var apiKey = 'a318e24f7600f51fcad422d0f814116e';
-    var url = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&units=metric&appid=' + apiKey;
+    var url = 'https://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&units=metric&appid=' + apiKey;
     var method = 'GET';
 
     http.open(method, url);
