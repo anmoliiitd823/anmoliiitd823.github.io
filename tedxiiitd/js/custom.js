@@ -8,3 +8,14 @@ $(function() {
 
 
 });
+$(function(){
+
+	$("#speakers").magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		gallery: {
+			enabled: true
+		}
+	});
+
+});
