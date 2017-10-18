@@ -9,7 +9,9 @@
 	White: #fff         (Text with Black Backgrounds);
 
 ==================================== */
-
+.navbar{
+	height: 50px;
+}
 /* General CSS */
 html, body{
 	height: 100%;
@@ -50,6 +52,7 @@ h3{
 	display: table-cell;
 	vertical-align: middle;
 	/*text-align: center;*/
+	background-color: rgba(255, 0, 0, 0.3);
 }
 #home-heading h3{
 	color: #fff;
@@ -200,6 +203,14 @@ h3{
 /*==========================================
 	Speakers
 =============================================*/
+#speakers{
+	border-bottom:  10px solid rgba(255,0,0,1);
+
+}
+.container-fluid{
+	border-top: 10px solid #e62b1e;
+
+}
 .row.no-gutters [class*=col-]{
 	padding-left: 0;
 	padding-right: 0;
@@ -346,4 +357,86 @@ ul.pricing-specification {
 ul.pricing-specification li p{
 	font-weight: 400;
 	text-transform: uppercase;
+}
+/* ==================================
+			Stats
+==================================== */
+
+#stats-cover{
+	background-image: url("../img/bg-stats.jpg");
+}
+#stats .content-box {
+	background-color: rgba(0,0,0,.9);
+}
+.stats-item {
+	padding: 100px 0;
+}
+.stats-item i {
+	color: #e62b1e;
+}
+.stats-item h2 {
+	color: #fff;
+	font-size: 35px;
+	font-weight: 700;
+	margin-top: 15px;
+	margin-bottom: 1px;
+}
+.stats-item p {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-top: 0;
+}
+/* ==================================
+			sponsors
+==================================== */
+.sponsor {
+	padding: 40px 0;
+
+}
+/* ==================================
+			contact
+==================================== */
+footer {
+	background-color: #41464b;
+	padding-top: 30px;
+	border-top: 10px solid rgba(255,0,0,1);
+
+}
+#contact-left h3, #contact-right h3 {
+	color: #fff;
+	font-size: 27px;
+	font-weight: 700;
+}
+#contact-left p {
+	color: #fff; 
+	margin-bottom: 30px;
+}
+#contact-info {
+	background-image: url(../img/tedxlogo.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#contact-info address {
+	color: white;
+
+}
+address strong, #phone-fax-email strong {
+	letter-spacing: 2px;
+}
+.icon-white i{
+	color: white;
+}
+.icon-white i:hover {
+	color: red;
+}
+form .form-control {
+	background: transparent;
+	border-radius: 0;
+	border-color: #fff;
+	font-size: 17px;
+	font-weight: 700;
+	padding: 8px 16px;
+	margin-bottom: 20px;
+	color: #fff;
 }

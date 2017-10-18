@@ -35,3 +35,18 @@ $(function(){
 		loop: true
 	}); 
 });
+
+$(function(){
+	$('.counter').counterUp({
+		delay: 10,
+		time: 2000
+	});
+});
+$(function(){
+	$("#sponsors-list").owlCarousel({
+		items: 6,
+		autoplay: true,
+		smartSpeed: 1000,
+		loop: true
+	}); 
+});
