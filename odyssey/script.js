@@ -17,7 +17,7 @@ for (var i1 = 0 ; i1 < puffs; i1++)
 {
   var puffDelay = i1 * 1500;
 
-  for (var i2 = 0 ; i2 < particlesPerPuff; i2++)
+  for (var i2 = 0 ; i2>=0; i2++)
   {
     addNewParticle((i2*50) + puffDelay);    
   }
