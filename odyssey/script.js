@@ -7,17 +7,17 @@ pCount = 0;
 pCollection = new Array();
 
 var puffs = 1;
-var particlesPerPuff = 200000000;
+var particlesPerPuff = 200000;
 var img = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/85280/smoke2.png';
 
 var smokeImage = new Image();
 smokeImage.src = img;
 
-for (var i1 = 0 ; i1 < particlesPerPuff ; i1++)
+for (var i1 = 0 ; i1 < puffs; i1++)
 {
   var puffDelay = i1 * 1500;
 
-  for (var i2 = 0 ; i2>=0; i2++)
+  for (var i2 = 0 ; i2 < particlesPerPuff; i2++)
   {
     addNewParticle((i2*50) + puffDelay);    
   }
