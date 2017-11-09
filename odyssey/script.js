@@ -70,7 +70,7 @@ function draw(startT, totalT)
   ctx.clearRect(0, 0, c.width, c.height);
   c.width = c.width;
 
-  for (var i= 0; i >=0; i++)
+  for (var i= 0; i < pCount; i++)
   {    
     var p = pCollection[i];
 
