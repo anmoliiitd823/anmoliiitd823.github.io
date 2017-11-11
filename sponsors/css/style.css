@@ -1,0 +1,121 @@
+
+.navbar{
+	height: 50px;
+}
+/* General CSS */
+html, body{
+	height: 100%;
+}
+body{
+	font-family: "Roboto Condensed", sans-serif ;
+}
+p {
+	color: #64707b;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+h3{
+	color: #41464b;
+	text-transform: uppercase;
+}
+
+
+/*==========================================
+	BUTTONS
+=============================================*/
+.btn-general {
+	border-width: 2px;
+	border-radius: 0;
+	padding: 12px 26px 12px 26px;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.btn-white {
+	border-color: #fff;
+	color: #fff;
+}
+.btn-white:hover, .btn-white:focus{
+	background-color: #fff;
+	color: #e62b1e;
+}
+.btn-blue {
+	border-color: #3FADAB;
+	color: #3FADAB;
+}
+.btn-blue:hover, .btn-blue:focus{
+	background-color: #3FADAB;
+	color: #fff;
+}
+
+
+/*==========================================
+	CONTENT
+=============================================*/
+
+.content-box{
+	padding: 60px 0px 60px 0;
+}
+.content-title h3{
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+.content-title-underline{
+	width: 30px;
+	height: 3px;
+	background-color: #e62b1e;
+	margin: 0 auto 30px auto;
+}
+
+/* ==================================
+			sponsors
+==================================== */
+.sponsor {
+	padding: 40px 0;
+
+}
+/* ==================================
+			contact
+==================================== */
+footer {
+	background-color: #41464b;
+	padding-top: 30px;
+	border-top: 10px solid rgba(255,0,0,1);
+
+}
+#contact-left h3, #contact-right h3 {
+	color: #fff;
+	font-size: 27px;
+	font-weight: 700;
+}
+#contact-left p {
+	color: #fff; 
+	margin-bottom: 30px;
+}
+
+#contact-info address {
+	color: white;
+
+}
+address strong, #phone-fax-email strong {
+	letter-spacing: 2px;
+}
+.icon-white i{
+	color: white;
+}
+.icon-white i:hover {
+	color: red;
+}
+form .form-control {
+	background: transparent;
+	border-radius: 0;
+	border-color: #fff;
+	font-size: 17px;
+	font-weight: 700;
+	padding: 8px 16px;
+	margin-bottom: 20px;
+	color: #fff;
+}
